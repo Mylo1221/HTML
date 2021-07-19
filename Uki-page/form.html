@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      form
+</title>
+<style>
+  fieldset {
+  display: block;
+  margin-left: auto;
+margin-right: auto;
+  border: 2px groove (internal value);
+  height: 500px;
+  position: relative;
+  max-width: 500px;
+  background-color: powderblue;
+  text-align: center;
+}
+a:link, a:visited {
+  background-color: #a3c2c2;
+  color: black;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  position: absolute;
+  right: 3px;
+}
+</style>
+</head>
+<body>
+<br>
+<br>
+<a href="index.html">Home</a>
+<form>
+<div class="container">
+<center>  <h1> <u>Uki-students</u></h1> </center>
+    <fieldset>
+      <legend style="margin-left:auto;margin-right:auto;">Uki life:</legend>
+<label> Firstname: </label>
+ <input type="text" name="firstname" size="15" required placeholder="type here"> <br> <br>
+<label> Lastname: </label>
+ <input type="text" name="lastname" size="15" required placeholder="type here"> <br> <br>
+ <label> Reg-no: </label>
+  <input type="text" name="Reg-no" size="15"required placeholder="type here"> <br> <br>
+  <label>date-of-birth:</label>
+ <input type="date" name="birthday">
+<br>
+<label>
+Gender :
+</label><br>
+ <input type="radio" name="male" checked> Male
+ <input type="radio" name="female"> Female <br>
+<br>
+<label>
+Fav.subject :
+</label><br>
+ <input type="checkbox" name="Programing" checked> Programing
+ <input type="checkbox" name="Business"> Business
+ <input type="checkbox" name="Personal coaching" > Personal coaching
+ <input type="checkbox" name="English"> English <br>
+<br>
+<label>
+feedback :
+</label><br>
+<textarea name="feedback"></textarea>
+<br>
+<br>
+<input type="submit" value="Submit">
+<input type="reset" value="reset">
+</fieldset>
+
+</fieldset>
+</form>
+</body>
+</html>
